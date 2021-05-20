@@ -1,0 +1,51 @@
+@charset "UTF-8";
+body{font-family:"Arial","微软雅黑" ; font-size:14px; color:#f7e6b2;  }
+.content{ margin:0 auto; max-width:740px; height:auto; position:relative;}
+.code{ text-align:center; position:relative;  }
+.codewap{   top:3rem;    padding: .5rem; position:absolute;    width: 100%;}
+.codewap ul{ width:100%; text-align:center}
+.codewap li{    width: 11rem;    display:inline-block; padding:.5rem}
+.codewap li img{ width:70%}
+ 
+.btn-andro,.btn-ios{ display:inline-block; background:url(../images/btn_adr.png);   background-size:9.5rem  ; width:9.5rem; height:2.3rem; border:0; cursor:pointer}
+.btn-ios{ background:url(../images/btn_ios.png); background-size:9.5rem  ;  }
+.code li img{ border:.3rem solid #fff;margin-bottom: .5rem;}
+.gamelist{ text-align:center; }
+ 
+.gamelist .leftwap{ width:47%; float:left}
+.gamelist .rightwap{ width:53%;float:left}
+.gamelist .fullwap{ width:100%; float:left;}
+.gamelist .fullwap li{width:25%}
+.gamelist li { float:left; width:50%}
+.gamelist li img{ width:100%}
+.button-div {background:url(../images/bg01_02.jpg) center top  no-repeat; text-align:center; clear: both;
+}
+
+@media screen and (max-width: 360px ) { 
+ .btn-andro,.btn-ios{   background-size:9.5rem  ; width:9.5rem; height:2.5rem;
+  }}
+@media screen and (min-width: 375px) { 
+ .btn-andro,.btn-ios{   background-size:11rem  ; width:11rem; height:2.9rem; }
+}
+ 
+@media screen and (min-width: 414px) { 
+ .btn-andro,.btn-ios{   background-size:12rem  ; width:12rem; height:3rem; }
+}
+
+ 
+@media screen and (min-width: 736px) { 
+   .btn-andro,.btn-ios{   background-size:20rem  ; width:20rem; height:4.8rem; }
+}
+
+@media screen and (min-width: 1200px) {
+ 
+ .btn-andro,.btn-ios{   background-size:20rem  ; width:20rem; height:4.8rem; }
+ .button-div li{ width:50%; float:left; padding:2rem}
+ .button-div li .code{ width:80%; height:80%; margin-top:1rem}
+ .gamelist .rightwap{ width:53%; float:left ; position:relative}
+ .code-wap{ position:absolute; top:8%; left:0}
+ .code-wap img{ width:80%}
+ 
+ 
+}
+.footer{ clear:left;width:100%; margin:15px auto; margin-bottom:0; text-align:center; font-size:1rem; color:#666; background-color:#111322; padding:1rem; line-height:1.2rem;}
